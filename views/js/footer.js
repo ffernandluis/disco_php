@@ -30,3 +30,8 @@ function myFunction() {
         lista[i].classList.toggle(lista[i].id);
     }
  }
+ let chatmesse = document.getElementsByTagName('iframe');
+ let idmess = document.getElementById('messenger');
+function chatmessenger(){
+    idmess.className +="fb_customer_chat_bounce_in_v2";
+}
