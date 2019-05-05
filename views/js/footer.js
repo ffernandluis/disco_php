@@ -34,5 +34,6 @@ function myFunction() {
  let idmess = document.getElementById('messenger');
 
 function chatMessenger(){
-    idmess.className +="fb_customer_chat_bounce_in_v2";
+    chatmesse.classList.remove("fb_customer_chat_bounce_out_v2");
+    chatmesse.className +="fb_customer_chat_bounce_in_v2";
 }
