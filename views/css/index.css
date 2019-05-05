@@ -1,0 +1,149 @@
+*, html, body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: black;
+    font-size: 14px;
+    font-family: 'Poppins', sans-serif;
+}
+.contenedor{
+    width: 100%;
+}
+
+.cabecera{
+    width: 100%;
+    height: 100vh;
+    background: url('/views/img/fondo01.png');
+    background-repeat: no-repeat;
+    background-position: top;
+    background-size: cover;
+    /*background-attachment: fixed;*/
+}
+.navegacion{
+    height: 12vh;
+    width: 100%;
+    background: hsla(357, 94%, 32%, 0.89);
+    position: fixed;
+    display: grid;
+    grid-template-columns: 10% 75% 10% 5%;
+    font-size: 1.2em;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+/*.Slogo{
+    
+}*/
+/*
+.nav{
+    
+}
+*/
+.item{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.nav.item{
+    flex-direction: column;
+    align-items: flex-end;
+}
+.nav_grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+    list-style: none;
+    grid-gap: 1.2em;
+}
+.lista{
+    display: flex;
+    justify-content: center;
+}
+a{
+    text-decoration: none;
+    cursor: pointer;
+    color: white;
+}
+a:hover{
+    text-decoration: underline;
+}
+.button{
+    padding: 0 20px;
+    height: 34px;
+    border-style: none;
+    border-radius: 18px;
+    line-height: 10px;
+    background: transparent;
+    color: #ffffff;
+    border: 1.2px solid #ffffff;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+.button:hover{
+    cursor: pointer;
+    background: #ffffff;
+    color: rgba(223, 3, 3, 0.897);
+    transition: ease-in all 0.2s;
+}
+.principal{
+    background: url('/views/img/fondo02.png');
+    background-attachment: fixed;
+    background-position: top;
+}
+.section{
+    background: url('/views/img/fondo03.png');
+    background-attachment: initial;
+    background-position: left;
+}
+.principal, .section{
+    width: 100%;
+    height: 100vh;
+    background-repeat: no-repeat;
+    
+    background-size: cover;
+}
+
+.footer{
+    height: 19vh;
+    width: 100%;
+    background: black;
+
+}
+.container_footer{
+    width: 80%;
+    margin: auto;
+}
+.icono img{
+    width: 30px;
+    height: 30px;
+}
+.icono{
+    border: 1.4px solid rgba(51, 3, 42, 0.835);
+    padding: 15px;
+    border-radius: 50%;
+    margin: 15px;
+}
+.container_footer li{
+    display: inline-flex;
+}
+.social{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+}
+.copy{
+    color: white;
+    text-align: center;
+    font-weight: 300;
+    font-style: normal;
+    font-family: 'Poppins', sans-serif;
+    font-size: 13px;
+    line-height: 1.7;
+    letter-spacing: 0px;
+}
+.copy a{
+    text-decoration: none;
+    color: #a413b1;
+}
+.copy a:hover{
+    text-decoration: underline;
+}
