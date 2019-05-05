@@ -32,6 +32,7 @@ function myFunction() {
  }
  let chatmesse = document.getElementsByTagName('iframe');
  let idmess = document.getElementById('messenger');
-function chatmessenger(){
+
+function chatMessenger(){
     idmess.className +="fb_customer_chat_bounce_in_v2";
 }
