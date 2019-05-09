@@ -9,4 +9,5 @@ if($conecta ==true){
     echo '<p>Conexion exitosa</p>';
 }
 
+$data;
 ?>
