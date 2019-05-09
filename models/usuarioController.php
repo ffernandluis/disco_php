@@ -7,5 +7,10 @@ class UsuarioController{
     private $auth;
 }
 
+class Login extends UsuarioController{
+    private $userlogin;
+    private $acount;
+    private $ip_user;
+}
 
 ?>
