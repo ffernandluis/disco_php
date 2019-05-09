@@ -30,10 +30,3 @@ function myFunction() {
         lista[i].classList.toggle(lista[i].id);
     }
  }
- let chatmesse = document.getElementsByTagName('iframe');
- let idmess = document.getElementById('messenger');
-
-function chatMessenger(){
-    chatmesse.classList.remove("fb_customer_chat_bounce_out_v2");
-    chatmesse.className +="fb_customer_chat_bounce_in_v2";
-}
